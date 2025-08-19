@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0feb5cc-63e4-4d7f-8e7d-6863a5fb3eff" name="Changes" comment="Initial Docusaurus setup for `bVault-js` documentation site. Includes configurations, custom CSS, homepage components, and introductory documentation.">
+    <list default="true" id="d0feb5cc-63e4-4d7f-8e7d-6863a5fb3eff" name="Changes" comment="Update `.idea/workspace.xml` and `docusaurus.config.ts` with initial Docusaurus setup adjustments and documentation link corrections.">
+      <change afterPath="$PROJECT_DIR$/static/img/bvault-js.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docusaurus.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docusaurus.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HomepageFeatures/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HomepageFeatures/styles.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/markdown-page.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/logo.svg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +30,9 @@
   "associatedIndex": 4
 }]]></component>
   <component name="ProjectId" id="31VFNDzHq8nHwZr01oCQE5nvzn2" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -36,6 +45,7 @@
     "RunOnceActivity.rust.reset.selective.auto.import": "true",
     "com.codeium.enabled": "true",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/AaronWillDjaba/Documents/node/bvault-js-docs/static/img",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -49,6 +59,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\AaronWillDjaba\Documents\node\bvault-js-docs\static\img" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.start">
     <configuration name="docusaurus" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
@@ -87,7 +102,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1755601292580</updated>
-      <workItem from="1755601297915" duration="3911000" />
+      <workItem from="1755601297915" duration="5621000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Docusaurus setup for `bVault-js` documentation site. Includes configurations, custom CSS, homepage components, and introductory documentation.">
       <option name="closed" value="true" />
@@ -97,7 +112,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755604764179</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update `.idea/workspace.xml` and `docusaurus.config.ts` with initial Docusaurus setup adjustments and documentation link corrections.">
+      <option name="closed" value="true" />
+      <created>1755605283427</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1755605283427</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +139,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Docusaurus setup for `bVault-js` documentation site. Includes configurations, custom CSS, homepage components, and introductory documentation." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Docusaurus setup for `bVault-js` documentation site. Includes configurations, custom CSS, homepage components, and introductory documentation." />
+    <MESSAGE value="Update `.idea/workspace.xml` and `docusaurus.config.ts` with initial Docusaurus setup adjustments and documentation link corrections." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update `.idea/workspace.xml` and `docusaurus.config.ts` with initial Docusaurus setup adjustments and documentation link corrections." />
   </component>
 </project>

@@ -7,12 +7,13 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
     title: 'bVault-js',
     tagline: 'Secure Frontend Encryption Library',
-    favicon: 'img/favicon.ico',
+    favicon: 'img/logo.svg',
 
     // Future flags
     future: {
         v4: true,
     },
+    onBrokenLinks: 'ignore',
 
     // Production URL of your site
     url: 'https://bvault-js.vercel.app',
@@ -23,13 +24,14 @@ const config: Config = {
     organizationName: 'kurtiz', // Your GitHub username/org
     projectName: 'bvault-js',   // Repo name
 
-    onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
+    /*
 
-    i18n: {
-        defaultLocale: 'en',
-        locales: ['en'],
-    },
+        i18n: {
+            defaultLocale: 'en',
+            locales: ['en'],
+        },
+    */
 
     presets: [
         [
@@ -72,7 +74,7 @@ const config: Config = {
                     position: 'left',
                     label: 'Docs',
                 },
-                {to: '/blog', label: 'Blog', position: 'left'},
+                // {to: '/blog', label: 'Blog', position: 'left'},
                 {
                     href: 'https://github.com/kurtiz/bvault-js',
                     label: 'GitHub',

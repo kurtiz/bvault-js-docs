@@ -13,14 +13,7 @@ function HomepageHeader() {
         <header className={clsx('hero', styles.heroBanner, styles.coffeeGradient)}>
             <div className="container">
                 <div className={styles.headerContent}>
-                    <div className={styles.coffeeCupIcon}>
-                        <div className={styles.coffeeCup}>
-                            <div className={styles.cup}>
-                                <div className={styles.coffee}></div>
-                            </div>
-                            <div className={styles.handle}></div>
-                        </div>
-                    </div>
+                    <img src="/img/bvault-js.svg" alt="bVault-js Logo"/>
                     <Heading as="h1" className={clsx("hero__title", styles.title)}>
                         {siteConfig.title}
                     </Heading>
@@ -120,7 +113,7 @@ export default function Home(): ReactNode {
                             <div className={styles.whyCta}>
                                 <Link
                                     className={clsx("button button--primary button--lg", styles.docsButton)}
-                                    to="/docs/usage-basic">
+                                    to="/docs">
                                     📖 Explore the Docs
                                 </Link>
                             </div>
