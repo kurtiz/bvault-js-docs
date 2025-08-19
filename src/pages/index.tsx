@@ -13,18 +13,19 @@ function HomepageHeader() {
         <header className={clsx('hero', styles.heroBanner, styles.coffeeGradient)}>
             <div className="container">
                 <div className={styles.headerContent}>
-                    <img src="/img/bvault-js.svg" alt="bVault-js Logo"/>
+                    <img src="/img/bvault-js.svg" alt="bVault-js Logo" height="200"/>
                     <Heading as="h1" className={clsx("hero__title", styles.title)}>
                         {siteConfig.title}
                     </Heading>
                     <p className={clsx("hero__subtitle", styles.subtitle)}>
-                        {siteConfig.tagline}
+                        bVault-js is a type-safe, lightweight, zero-dependency cryptographic library for secure
+                        encryption and decryption in browser environments.
                     </p>
                     <div className={styles.buttons}>
                         <Link
                             className={clsx("button button--primary button--lg", styles.ctaButton)}
                             to="/docs/introduction">
-                            ☕ Get Started
+                            🛡️ Get Started
                         </Link>
                         <Link
                             className={clsx("button button--outline button--lg", styles.secondaryButton)}
@@ -113,7 +114,7 @@ export default function Home(): ReactNode {
                             <div className={styles.whyCta}>
                                 <Link
                                     className={clsx("button button--primary button--lg", styles.docsButton)}
-                                    to="/docs">
+                                    to="/docs/introduction">
                                     📖 Explore the Docs
                                 </Link>
                             </div>

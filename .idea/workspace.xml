@@ -4,12 +4,17 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0feb5cc-63e4-4d7f-8e7d-6863a5fb3eff" name="Changes" comment="Update `.idea/workspace.xml` to reflect task additions and enhance intro docs for clarity.">
-      <change afterPath="$PROJECT_DIR$/docs/getting-started/_category_.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/getting-started/installation.md" afterDir="false" />
+    <list default="true" id="d0feb5cc-63e4-4d7f-8e7d-6863a5fb3eff" name="Changes" comment="Update `.idea/workspace.xml`, restructure intro docs, and add installation guide under &quot;Getting Started&quot;.">
+      <change afterPath="$PROJECT_DIR$/static/img/social-card.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/intro.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/intro.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docusaurus.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docusaurus.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/docusaurus-social-card.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/docusaurus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/undraw_docusaurus_mountain.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/undraw_docusaurus_react.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/undraw_docusaurus_tree.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +47,7 @@
     "RunOnceActivity.rust.reset.selective.auto.import": "true",
     "com.codeium.enabled": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/AaronWillDjaba/Documents/node/bvault-js-docs/static/img",
+    "last_opened_file_path": "C:/Users/AaronWillDjaba/Documents/node/bvault-js-docs/docs",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -58,6 +63,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\AaronWillDjaba\Documents\node\bvault-js-docs\docs" />
       <recent name="C:\Users\AaronWillDjaba\Documents\node\bvault-js-docs\static\img" />
     </key>
   </component>
@@ -99,7 +105,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1755601292580</updated>
-      <workItem from="1755601297915" duration="10073000" />
+      <workItem from="1755601297915" duration="12549000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Docusaurus setup for `bVault-js` documentation site. Includes configurations, custom CSS, homepage components, and introductory documentation.">
       <option name="closed" value="true" />
@@ -141,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755612115365</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Update `.idea/workspace.xml`, restructure intro docs, and add installation guide under &quot;Getting Started&quot;.">
+      <option name="closed" value="true" />
+      <created>1755613201244</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1755613201244</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +178,7 @@
     <MESSAGE value="Remove unused components, styles, and markdown files. Update homepage hero image and configs for improved branding and consistency." />
     <MESSAGE value="Add Mermaid support with `@docusaurus/theme-mermaid`, update intro docs, and enhance markdown rendering." />
     <MESSAGE value="Update `.idea/workspace.xml` to reflect task additions and enhance intro docs for clarity." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update `.idea/workspace.xml` to reflect task additions and enhance intro docs for clarity." />
+    <MESSAGE value="Update `.idea/workspace.xml`, restructure intro docs, and add installation guide under &quot;Getting Started&quot;." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update `.idea/workspace.xml`, restructure intro docs, and add installation guide under &quot;Getting Started&quot;." />
   </component>
 </project>
