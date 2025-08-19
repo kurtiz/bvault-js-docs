@@ -20,10 +20,6 @@ bVault-js is a type-safe, lightweight, zero-dependency cryptographic library des
 - **TypeScript Support**: Full type safety with comprehensive type definitions
 - **Zero Dependencies**: Lightweight and self-contained
 - **Browser-First**: Optimized for modern web browsers using Web Crypto API
----
-title: Why Choose bVault-js?
-sidebar_position: 2
----
 
 ## Why Choose bVault-js?
 
@@ -54,7 +50,7 @@ bVault-js provides **two secure storage wrappers**:
 
 This gives developers flexibility in choosing **where and how** data should be kept encrypted.
 
-### ⬇️ Encryption & Storage Flow
+## ⬇️ Encryption & Storage Flow
 
 ```mermaid
 graph TD
@@ -83,3 +79,26 @@ graph TD
     style G fill:#f1f8e9,stroke:#33691e,stroke-width:2px
     style K fill:#fff3e0,stroke:#ef6c00,stroke-width:2px
 ```
+
+bVault-js solves the critical problem of securely storing sensitive data in client-side applications. Unlike plain localStorage or sessionStorage,
+bVault-js ensures that even if someone gains access to the stored data, they cannot read it without the encryption password.
+
+## Use Cases
+
+- **User Authentication**: Secure storage of authentication tokens and user sessions
+- **Configuration Files**: Protection of sensitive application configuration
+- **Personal Data**: Encryption of user personal information in browser storage
+- **File Encryption**: Client-side encryption of files before upload
+- **Secure Messaging**: End-to-end encryption for messaging applications
+
+## Security First
+
+bVault-js prioritizes security by implementing best practices:
+
+- Uses AES-GCM with 256-bit keys for authenticated encryption
+- Employs PBKDF2 with 100,000 iterations for key derivation
+- Generates unique salts and initialization vectors for each operation
+- Provides built-in error handling for cryptographic failures
+- Follows OWASP security guidelines for client-side encryption
+
+Ready to get started? Continue to the [Installation Guide](/docs/getting-started/installation-guide).

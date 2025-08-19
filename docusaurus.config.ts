@@ -44,7 +44,7 @@ const config: Config = {
             {
                 docs: {
                     sidebarPath: './sidebars.ts',
-                    editUrl: 'https://github.com/kurtiz/bvault-js-docs/edit/main/docs/',
+                    editUrl: 'https://github.com/kurtiz/bvault-js-docs/edit/main/',
                 },
                 /* blog: {
                      showReadingTime: true,
