@@ -1,29 +1,85 @@
 ---
 id: introduction
 title: Introduction
-sidebar_label: Introduction
-description: Overview of bVault-js, a secure frontend encryption library
 sidebar_position: 1
+description: bVault-js - Secure Frontend Encryption Library for browser environments
 ---
 
 # bVault-js - Secure Frontend Encryption Library
 
-<p style={{display: "flex", gap: "1rem"}}>
-    <img src="https://img.shields.io/npm/v/bvault-js?logo=npm" alt="npm version"/>
-    <img src="https://img.shields.io/npm/types/bvault-js?logo=typescript" alt="typescript definitions"/>
-    <img src="https://img.shields.io/github/commit-activity/m/kurtiz/bvault-js" alt="commit activity"/>
-    <img src="https://img.shields.io/github/license/kurtiz/bvault-js" alt="license"/>
-</p>
+[![npm version](https://img.shields.io/npm/v/bvault-js?logo=npm)](https://www.npmjs.com/package/bvault-js) [![wakatime](https://wakatime.com/badge/user/9657174f-2430-4dfd-aaef-2b316eb71a36/project/4f0c1980-a3b3-432d-a157-1068783e6a7c.svg)](https://wakatime.com/badge/user/9657174f-2430-4dfd-aaef-2b316eb71a36/project/4f0c1980-a3b3-432d-a157-1068783e6a7c) [![NPM Type Definitions](https://img.shields.io/npm/types/bvault-js?logo=typescript)](https://img.shields.io/npm/types/bvault-js) [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/kurtiz/bvault-js)](https://img.shields.io/github/commit-activity/m/kurtiz/bvault-js) [![GitHub License](https://img.shields.io/github/license/kurtiz/bvault-js)](https://github.com/kurtiz/bvault-js)
 
-**bVault-js** is a type-safe, lightweight, zero-dependency cryptographic library for secure encryption and decryption in
-browser environments.
+bVault-js is a type-safe, lightweight, zero-dependency cryptographic library designed for secure encryption and decryption in browser environments. It provides a simple yet powerful API for protecting sensitive data using industry-standard encryption algorithms.
 
-It implements **AES-GCM** with **PBKDF2 key derivation**, providing a simple API for password-based encryption of
-sensitive data.
+## Key Features
 
-:::tip Why use bVault-js?
+- **AES-GCM 256-bit Encryption**: Military-grade encryption for maximum security
+- **Password-based Key Derivation**: PBKDF2 with 100,000 iterations for secure key generation
+- **Automatic Parameter Generation**: Built-in salt and IV generation
+- **Secure Local Storage Wrapper**: Encrypted localStorage with automatic encryption/decryption
+- **TypeScript Support**: Full type safety with comprehensive type definitions
+- **Zero Dependencies**: Lightweight and self-contained
+- **Browser-First**: Optimized for modern web browsers using Web Crypto API
+---
+title: Why Choose bVault-js?
+sidebar_position: 2
+---
 
-- Works directly in the **browser** (no native dependencies)
-- Strong **AES-GCM 256-bit encryption**
-- Built-in **secure wrappers** for localStorage and sessionStorage
-:::
+## Why Choose bVault-js?
+
+bVault-js is designed to bring **enterprise-grade encryption** directly into your browser applications — without the
+bloat, without extra dependencies.
+
+It helps you **securely store, retrieve, and manage sensitive data** using the Web Crypto API, while keeping a simple,
+type-safe, developer-friendly API.
+
+---
+
+## 🔑 Key Advantages
+
+- **AES-GCM 256-bit encryption**: Industry-standard, modern symmetric encryption.
+- **PBKDF2 with 100,000 iterations**: Derives strong encryption keys from user-provided passwords.
+- **Zero dependencies**: Lightweight, portable, and safe to use in modern browsers.
+- **Secure Local & Session Storage**: Wraps `localStorage` and `sessionStorage` so you can transparently encrypt/decrypt app data.
+- **Cross-framework support**: Works seamlessly with React, Vue, Svelte, and vanilla JS.
+
+---
+
+## 🛡️ How It Works
+
+bVault-js provides **two secure storage wrappers**:
+
+- `secureLocalStorage` → persists data across browser sessions (until cleared).
+- `secureSessionStorage` → keeps sensitive data only for the current session (cleared when the tab/browser closes).
+
+This gives developers flexibility in choosing **where and how long** data should be kept encrypted.
+
+### ⬇️ Encryption & Storage Flow
+
+```mermaid
+graph TD
+    A[User Password] --> B[PBKDF2 Key Derivation]
+    B --> C[Strong AES-GCM Key]
+
+    D[Sensitive Data] --> E[Encrypt with AES-GCM]
+    C --> E
+    E --> F[Encrypted Payload + Salt + IV]
+
+    F --> G[Secure Local Storage]
+    F --> K[Secure Session Storage]
+
+    G --> H[Retrieve Encrypted Data]
+    K --> L[Retrieve Encrypted Data]
+
+    H --> I[Decrypt with AES-GCM]
+    L --> I
+    C --> I
+
+    I --> J[Original Data Restored]
+
+    style B fill:#fce4ec,stroke:#ad1457,stroke-width:2px
+    style E fill:#e1f5fe,stroke:#0277bd,stroke-width:2px
+    style I fill:#e1f5fe,stroke:#0277bd,stroke-width:2px
+    style G fill:#f1f8e9,stroke:#33691e,stroke-width:2px
+    style K fill:#fff3e0,stroke:#ef6c00,stroke-width:2px
+```

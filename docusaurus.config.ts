@@ -9,6 +9,11 @@ const config: Config = {
     tagline: 'Secure Frontend Encryption Library',
     favicon: 'img/logo.svg',
 
+    themes: ['@docusaurus/theme-mermaid'],
+    markdown: {
+        mermaid: true,
+    },
+
     // Future flags
     future: {
         v4: true,
