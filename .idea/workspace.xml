@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0feb5cc-63e4-4d7f-8e7d-6863a5fb3eff" name="Changes" comment="Remove unused components, styles, and markdown files. Update homepage hero image and configs for improved branding and consistency.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d0feb5cc-63e4-4d7f-8e7d-6863a5fb3eff" name="Changes" comment="Add Mermaid support with `@docusaurus/theme-mermaid`, update intro docs, and enhance markdown rendering.">
       <change beforePath="$PROJECT_DIR$/docs/intro.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/intro.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docusaurus.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/docusaurus.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +95,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1755601292580</updated>
-      <workItem from="1755601297915" duration="8919000" />
+      <workItem from="1755601297915" duration="9004000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Docusaurus setup for `bVault-js` documentation site. Includes configurations, custom CSS, homepage components, and introductory documentation.">
       <option name="closed" value="true" />
@@ -125,7 +121,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755607011481</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add Mermaid support with `@docusaurus/theme-mermaid`, update intro docs, and enhance markdown rendering.">
+      <option name="closed" value="true" />
+      <created>1755612043396</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1755612043396</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +150,7 @@
     <MESSAGE value="Initial Docusaurus setup for `bVault-js` documentation site. Includes configurations, custom CSS, homepage components, and introductory documentation." />
     <MESSAGE value="Update `.idea/workspace.xml` and `docusaurus.config.ts` with initial Docusaurus setup adjustments and documentation link corrections." />
     <MESSAGE value="Remove unused components, styles, and markdown files. Update homepage hero image and configs for improved branding and consistency." />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove unused components, styles, and markdown files. Update homepage hero image and configs for improved branding and consistency." />
+    <MESSAGE value="Add Mermaid support with `@docusaurus/theme-mermaid`, update intro docs, and enhance markdown rendering." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Mermaid support with `@docusaurus/theme-mermaid`, update intro docs, and enhance markdown rendering." />
   </component>
 </project>
