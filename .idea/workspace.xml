@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0feb5cc-63e4-4d7f-8e7d-6863a5fb3eff" name="Changes" comment="Update `.idea/workspace.xml`, restructure intro docs, and add installation guide under &quot;Getting Started&quot;.">
-      <change afterPath="$PROJECT_DIR$/static/img/social-card.png" afterDir="false" />
+    <list default="true" id="d0feb5cc-63e4-4d7f-8e7d-6863a5fb3eff" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/docs/core-api/_category_.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/core-api/core-api/encryption.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/getting-started/quick-start.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/docusaurus-social-card.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/docusaurus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/undraw_docusaurus_mountain.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/undraw_docusaurus_react.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/undraw_docusaurus_tree.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,10 +21,10 @@
   <component name="MacroExpansionManager">
     <option name="directoryName" value="x3DZCt8d" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="31VFNDzHq8nHwZr01oCQE5nvzn2" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -44,6 +38,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.rust.reset.selective.auto.import": "true",
     "com.codeium.enabled": "true",
     "git-widget-placeholder": "main",
@@ -105,7 +100,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1755601292580</updated>
-      <workItem from="1755601297915" duration="12549000" />
+      <workItem from="1755601297915" duration="14221000" />
+      <workItem from="1755690204418" duration="3128000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Docusaurus setup for `bVault-js` documentation site. Includes configurations, custom CSS, homepage components, and introductory documentation.">
       <option name="closed" value="true" />
@@ -155,7 +151,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755613201244</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Remove unused `undraw_docusaurus_mountain.svg` asset to clean up static files.">
+      <option name="closed" value="true" />
+      <created>1755616145866</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1755616145866</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +183,7 @@
     <MESSAGE value="Add Mermaid support with `@docusaurus/theme-mermaid`, update intro docs, and enhance markdown rendering." />
     <MESSAGE value="Update `.idea/workspace.xml` to reflect task additions and enhance intro docs for clarity." />
     <MESSAGE value="Update `.idea/workspace.xml`, restructure intro docs, and add installation guide under &quot;Getting Started&quot;." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update `.idea/workspace.xml`, restructure intro docs, and add installation guide under &quot;Getting Started&quot;." />
+    <MESSAGE value="Remove unused `undraw_docusaurus_mountain.svg` asset to clean up static files." />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove unused `undraw_docusaurus_mountain.svg` asset to clean up static files." />
   </component>
 </project>
