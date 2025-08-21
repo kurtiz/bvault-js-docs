@@ -5,11 +5,17 @@ sidebar_position: 1
 description: bVault-js - Secure Frontend Encryption Library for browser environments
 ---
 
-# bVault-js - Secure Frontend Encryption Library
+<div style={{flexDirection: "row"}}>
+    <img src="/img/bvault-js.svg" align="center" height="150" alt="logo"/>
+    <span style={{fontSize: "40px", fontWeight: "800"}}>bVault-js</span>
+</div>
+# Secure Frontend Encryption Library
 
 [![npm version](https://img.shields.io/npm/v/bvault-js?logo=npm)](https://www.npmjs.com/package/bvault-js) [![wakatime](https://wakatime.com/badge/user/9657174f-2430-4dfd-aaef-2b316eb71a36/project/4f0c1980-a3b3-432d-a157-1068783e6a7c.svg)](https://wakatime.com/badge/user/9657174f-2430-4dfd-aaef-2b316eb71a36/project/4f0c1980-a3b3-432d-a157-1068783e6a7c) [![NPM Type Definitions](https://img.shields.io/npm/types/bvault-js?logo=typescript)](https://img.shields.io/npm/types/bvault-js) [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/kurtiz/bvault-js)](https://img.shields.io/github/commit-activity/m/kurtiz/bvault-js) [![GitHub License](https://img.shields.io/github/license/kurtiz/bvault-js)](https://github.com/kurtiz/bvault-js)
 
-bVault-js is a type-safe, lightweight, zero-dependency cryptographic library designed for secure encryption and decryption in browser environments. It provides a simple yet powerful API for protecting sensitive data using industry-standard encryption algorithms.
+bVault-js is a type-safe, lightweight, zero-dependency cryptographic library designed for secure encryption and
+decryption in browser environments. It provides a simple yet powerful API for protecting sensitive data using
+industry-standard encryption algorithms.
 
 ## Key Features
 
@@ -36,7 +42,8 @@ type-safe, developer-friendly API.
 - **AES-GCM 256-bit encryption**: Industry-standard, modern symmetric encryption.
 - **PBKDF2 with 100,000 iterations**: Derives strong encryption keys from user-provided passwords.
 - **Zero dependencies**: Lightweight, portable, and safe to use in modern browsers.
-- **Secure Local & Session Storage**: Wraps `localStorage` and `sessionStorage` so you can transparently encrypt/decrypt app data.
+- **Secure Local & Session Storage**: Wraps `localStorage` and `sessionStorage` so you can transparently encrypt/decrypt
+app data.
 - **Cross-framework support**: Works seamlessly with React, Vue, Svelte, and vanilla JS.
 
 ---
@@ -56,32 +63,28 @@ This gives developers flexibility in choosing **where and how** data should be k
 graph TD
     A[User Password] --> B[PBKDF2 Key Derivation]
     B --> C[Strong AES-GCM Key]
-
     D[Sensitive Data] --> E[Encrypt with AES-GCM]
     C --> E
     E --> F[Encrypted Payload + Salt + IV]
-
     F --> G[Secure Local Storage]
     F --> K[Secure Session Storage]
-
     G --> H[Retrieve Encrypted Data]
     K --> L[Retrieve Encrypted Data]
-
     H --> I[Decrypt with AES-GCM]
     L --> I
     C --> I
-
     I --> J[Original Data Restored]
-
-    style B fill:#fce4ec,stroke:#ad1457,stroke-width:2px
-    style E fill:#e1f5fe,stroke:#0277bd,stroke-width:2px
-    style I fill:#e1f5fe,stroke:#0277bd,stroke-width:2px
-    style G fill:#f1f8e9,stroke:#33691e,stroke-width:2px
-    style K fill:#fff3e0,stroke:#ef6c00,stroke-width:2px
+    style B fill: #ff226c, stroke: #ad1457, stroke-width: 2px
+    style E fill: #e1f5fe, stroke: #0277bd, stroke-width: 2px
+    style I fill: #e1f5fe, stroke: #0277bd, stroke-width: 2px
+    style G fill: #f1f8e9, stroke: #33691e, stroke-width: 2px
+    style K fill: #fff3e0, stroke: #ef6c00, stroke-width: 2px
 ```
 
-bVault-js solves the critical problem of securely storing sensitive data in client-side applications. Unlike plain localStorage or sessionStorage,
-bVault-js ensures that even if someone gains access to the stored data, they cannot read it without the encryption password.
+bVault-js solves the critical problem of securely storing sensitive data in client-side applications. Unlike plain
+localStorage or sessionStorage,
+bVault-js ensures that even if someone gains access to the stored data, they cannot read it without the encryption
+password.
 
 ## Use Cases
 

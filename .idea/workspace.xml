@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0feb5cc-63e4-4d7f-8e7d-6863a5fb3eff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/core-api/_category_.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/core-api/core-api/encryption.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/getting-started/quick-start.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/core-api/error-handling.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/core-api/secure-storage.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guides/_category_.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guides/framework-integration.mdx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/core-api/encryption.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/core-api/encryption.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/getting-started/installation.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/getting-started/installation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/intro.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/intro.mdx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +65,9 @@
       <recent name="C:\Users\AaronWillDjaba\Documents\node\bvault-js-docs\docs" />
       <recent name="C:\Users\AaronWillDjaba\Documents\node\bvault-js-docs\static\img" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\AaronWillDjaba\Documents\node\bvault-js-docs\docs\core-api" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.start">
     <configuration name="docusaurus" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -101,7 +108,7 @@
       <option name="presentableId" value="Default" />
       <updated>1755601292580</updated>
       <workItem from="1755601297915" duration="14221000" />
-      <workItem from="1755690204418" duration="3128000" />
+      <workItem from="1755690204418" duration="9494000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Docusaurus setup for `bVault-js` documentation site. Includes configurations, custom CSS, homepage components, and introductory documentation.">
       <option name="closed" value="true" />
@@ -159,7 +166,23 @@
       <option name="project" value="LOCAL" />
       <updated>1755616145866</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add &quot;Quick Start&quot; and &quot;Encryption API&quot; guides, restructure core API docs, and update `.idea/workspace.xml` to reflect task changes.">
+      <option name="closed" value="true" />
+      <created>1755693411071</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1755693411071</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Update &quot;Encryption API&quot; guide in core API documentation.">
+      <option name="closed" value="true" />
+      <created>1755693515512</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1755693515512</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,6 +207,8 @@
     <MESSAGE value="Update `.idea/workspace.xml` to reflect task additions and enhance intro docs for clarity." />
     <MESSAGE value="Update `.idea/workspace.xml`, restructure intro docs, and add installation guide under &quot;Getting Started&quot;." />
     <MESSAGE value="Remove unused `undraw_docusaurus_mountain.svg` asset to clean up static files." />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove unused `undraw_docusaurus_mountain.svg` asset to clean up static files." />
+    <MESSAGE value="Add &quot;Quick Start&quot; and &quot;Encryption API&quot; guides, restructure core API docs, and update `.idea/workspace.xml` to reflect task changes." />
+    <MESSAGE value="Update &quot;Encryption API&quot; guide in core API documentation." />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>

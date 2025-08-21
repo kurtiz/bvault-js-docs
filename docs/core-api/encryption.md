@@ -179,6 +179,18 @@ async function encryptLargeData(largeString, password, chunkSize = 10000) {
 
     return encryptedChunks;
 }
+
+// Decrypt large data that was encrypted in chunks
+async function decryptLargeData(encryptedChunks, password) {
+    let decryptedString = "";
+
+    for (const encryptedChunk of encryptedChunks) {
+        const decrypted = await decrypt(encryptedChunk, password);
+        decryptedString += decrypted;
+    }
+
+    return decryptedString;
+}
 ```
 
 ## Security Notes

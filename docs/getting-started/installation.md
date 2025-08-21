@@ -90,6 +90,45 @@ For quick prototyping or without build tools, you can use bVault-js via CDN:
 </script>
 ```
 
+```html
+
+<script src='https://cdn.jsdelivr.net/npm/bvault-js/dist/bvault.min.js'></script>
+<script>
+    // Initialize secure storage with a password
+    initializeSecureStorage('your-strong-password')
+            .then(() => {
+                console.log('Secure storage initialized');
+
+                // Store data securely
+                secureLocalStorage.setItem('user', JSON.stringify({
+                    name: 'John Doe',
+                    email: 'john@example.com',
+                    preferences: {theme: 'dark'}
+                }));
+
+                secureSessionStorage.setItem('authToken', 'abc123xyz');
+
+                // Retrieve data
+                const user = await secureLocalStorage.getItem('user');
+                console.log('User:', JSON.parse(user));
+
+                const token = await secureSessionStorage.getItem('authToken');
+                console.log('Token:', token);
+
+                // Remove items
+                secureSessionStorage.removeItem('authToken');
+
+                // Check if storage is initialized
+                if (isSecureStorageInitialized()) {
+                    console.log('Secure storage is ready');
+                }
+            })
+            .catch(error => {
+                console.error('Initialization failed:', error);
+            });
+</script>
+```
+
 ## Verification
 
 To verify your installation, create a simple test:
@@ -127,4 +166,5 @@ testInstallation();
     - Ensure you have the latest TypeScript version
     - Check your `tsconfig.json` compiler options
 
-Now that you've installed bVault-js, continue to the [Quick Start Guide](./quick-start.md) to learn how to use it.
+Now that you've installed bVault-js, continue to the [` Quick Start Guide `](/docs/getting-started/quick-start) to learn
+how to use it.
